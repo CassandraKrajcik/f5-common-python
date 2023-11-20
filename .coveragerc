@@ -1,6 +1,6 @@
 [run]
-omit =
-    # omit all functional tests
+omit*=
+*     omit all functional tests
     */functional/*
 
     # all unit tests
@@ -14,4 +14,4 @@ omit =
     setup.py
 
     # This file is only used in unit tests
-    f5/utils/iapp_parser.py
+    f5/utils/iapp_parser.py 
